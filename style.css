@@ -1,0 +1,85 @@
+
+
+.newFont {
+    font-family: cursive;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;           
+    justify-content: center;   
+    gap: 20px;                 
+    padding: 40px 20px;
+}
+.flexCenter {
+    display: flex;
+    gap: 3vh;
+    margin-top:10vh;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+    background-image: url('slike/background.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.option-box {
+    flex: 1;
+    min-width: 29vh;
+    max-width: 33vh;
+    border: 0.2vh solid rgb(204, 204, 204);
+    border-radius: 1.2vh;
+    padding: 2.6vh;
+    background-color:rgb(250, 250, 250);
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.option-box:hover {
+    transform: translateY(-2.6vh);
+    box-shadow: 0 0.4vh 1vh rgba(0,0,0,0.1);
+}
+
+.container {
+    width: 100%;
+    font-family: cursive;
+    max-width: 114vh;
+    margin: auto;
+    background-color: white;
+    padding: 3vh;
+    border-radius: 1.2vh;
+    box-shadow: 0 0 4vh rgb(0, 123, 255);
+    margin-bottom:15vh;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    gap: 3vh;
+    flex-wrap: wrap;
+}
+
+.option-box h3 {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    font-size: 2.3vh;
+}
+
+.price {
+    font-size: 2.1vh;
+    margin: 1vh 0;
+    color:rgb(0, 123, 255);
+}
+
+.pay-button {
+    background-color:rgb(0, 123, 255);
+    color: white;
+    border: none;
+    padding: 1.2vh 2vh;
+    border-radius: 5vh;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.5s;
+}
