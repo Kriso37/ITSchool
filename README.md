@@ -1,2 +1,0 @@
-# ITSchool
-IT School
